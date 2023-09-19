@@ -7,7 +7,7 @@ interface PlayerProps {
     url: string; // Define the url prop
   }
   
-  const Player: React.FC<PlayerProps> = ({ url }) => {
+const Player: React.FC<PlayerProps> = ({ url }) => {
     const [header, setHeader] = useState("Loading the scene...");
 
     function onLoad(spline:any) {
