@@ -9,7 +9,7 @@ const Hero = ()=> {
 
   return (
     <section className=' w-full h-full'>
-      <Spline className=' w-full h-full' scene={spline} />
+      <Spline className=' w-full h-full' scene={"https://prod.spline.design/Ca0DJl452IKi8pMw/scene.splinecode"} />
     </section>
   )
   

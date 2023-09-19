@@ -15,9 +15,9 @@ const Player: React.FC<PlayerProps> = ({ url }) => {
     }
 
     return (
-        <section className=' relative w-full h-full flex items-center justify-center'>
+        <section className=' relative w-full h-full grid origin-center'>
             {header !== "Loaded" && <h1 className=' text-3xl fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'>{header}</h1>}
-            <Spline className='w-full h-full' scene={url} onLoad={onLoad} />
+            <Spline className='w-full h-full' scene={"https://prod.spline.design/Ca0DJl452IKi8pMw/scene.splinecode"} onLoad={onLoad} />
         </section>
     );
 };
